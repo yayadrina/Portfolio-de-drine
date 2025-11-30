@@ -75,8 +75,18 @@ section{
 .dra {
     
     text-align: right;
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    
     
 }
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+} 
+width 300px head
 .new{
     text-align: center;
     background-color: #FFFFFF;
