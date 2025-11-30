@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(161, 211, 218);
+    color: white;
+    align-items: center;
+    padding: 30px 60px;
+    
+    
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+button{
+    padding: 10px 20px;
+    background-color: #e8c5d0;
+    color: #2A1A3F;
+    border-radius: 20px;
+}
+section {
+    display: flex;
+    background-color: #F5EDE3;
+    color: #2A1A3F;
+}
+.moi{
+    background-color:#e8c5d0;
+    color: #2A1A3F;
+    font-size: 30px;
+    
+}
+#info {
+    background-color: #e8c5d0;
+    color: #2A1A3F;
+    font-size: 30px;
+    
+
+}
+.drine, .dra {
+    flex: 2;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 20px;
+
+}
+section{
+    align-items: center;
+    
+      
+}
+.drine{
+    padding: 20px;
+    font-size: 30px;
+    margin: 50px;
+
+    
+}
+.dra {
+    
+    text-align: right;
+    
+}
+.new{
+    text-align: center;
+    background-color: #FFFFFF;
+    justify-content: center;
+
+}
+.cool{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+.vrai{
+    padding: 30px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+.vrouch{
+    background-color: rgb(161, 211, 218);
+    text-align: center;
+    justify-content: center;
+    
+
+}
+.god{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+
+}
+.agnès{
+    padding: 20px;
+         
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.edem{
+    text-align: center;
+    justify-content: center;
+}
+.compétences{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 30px;
+    font-size: x-large;
+}
+.ouff{
+    padding: 20px;
+}
+.fait{
+    display: flex;
+    justify-content: center;
+}
+.num{
+    display: flex;
+}
+.block{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+.C, .bref{
+    flex: 1;
+    padding: 30px;
+    margin: 20px;
+}
+.two{
+    display: flex;
+    gap: 20px;
+}
+.mail{
+    display: flex;
+
+}
+.local{
+    display: flex;
+
+
+}
+.T{
+    padding: 30px;
+}
+.V{
+    text-align: center;
+    justify-content: center;
+}
+.pff{
+    padding: 20px;
+}
+.fait{
+    background-color: #f8f1f3;
+}
+.E{
+    padding: 10px;
+}
+.F{
+    padding: 10px;
+}
+.D{
+    padding: 10px;
+}
+.bref{
+    padding: 50px 20px;
+    background-color: #F5EDE3;
+
+}
+.contactform{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+}
+.contactform input,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2A1A3F;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+.contactform textarea{
+    height: 150px;
+    resize: none;
+}
+.drol{
+    border: none;
+    padding: 12px 25px;
+    width: 150;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+
+}
+.button{
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+.button:hover{
+    transition: scale(1.1);
+}
+
+
