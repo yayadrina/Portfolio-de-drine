@@ -260,4 +260,77 @@ width 300px head
     transition: scale(1.1);
 }
 
+TABLETTES */
+@media (max-width: 900px) {
+    nav ul {
+        gap: 10px;
+    }
 
+    header {
+        padding: 15px 20px;
+    }
+
+    #accueil {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .dra img {
+        width: 80%;
+    }
+
+    .two {
+        flex-direction: column;
+    }
+
+    .cool {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .god {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* TÉLÉPHONES */
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav button {
+        width: 100%;
+    }
+
+    #accueil {
+        padding: 40px 20px;
+    }
+
+    .dra img {
+        width: 100%;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .cool,
+    .god {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .two {
+        flex-direction: column;
+    }
+}
